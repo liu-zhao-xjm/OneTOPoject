@@ -1,0 +1,18 @@
+.mass {
+    float: left;
+}
+
+li {
+    list-style-type: none;
+}
+
+#mass {
+    width: 600px;
+    height: 300px;
+    border: deepskyblue 2px solid;
+}
+
+#mass div {
+    padding-top: 130px;
+    text-align: center;
+}

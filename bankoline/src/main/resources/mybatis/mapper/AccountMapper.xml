@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jbit.bankoline.mapper.AccountMapper">
+    <select id="login" resultType="com.jbit.bankoline.pojo.Account">
+        select *from bankonline.account
+        where cardno=#{cardno}
+    </select>
+    <select id="seeMOney" resultType="com.jbit.bankoline.pojo.Account">
+        select *from bankonline.account
+        where cardno=#{cardno}
+    </select>
+</mapper>

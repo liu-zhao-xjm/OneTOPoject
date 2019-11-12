@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<link th:href="@{/asserts/css/index.css}" href="/static/asserts/css/index.css" rel="stylesheet">
+<link th:href="@{/webjars/bootstrap/4.3.1/css/bootstrap.min-jsf.css}" rel="stylesheet">
+
+<body>
+<p>卡号:[[${session.userSession.cardno
+    }]] <a href="#">退出登录</a></p>
+<div>
+    <div class="mass">
+        <ul>
+            <li><a href="#">查询余额</a></li>
+            <li><a href="#">转账</a></li>
+            <li><a href="#">查询交易记录</a></li>
+            <li><a href="#">修改密码</a></li>
+        </ul>
+    </div>
+    <div class="mass" id="mass">
+        <div>
+            <h4>欢迎使用个人网上银行</h4>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
